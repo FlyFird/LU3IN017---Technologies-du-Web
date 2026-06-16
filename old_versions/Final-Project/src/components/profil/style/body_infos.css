@@ -1,0 +1,25 @@
+.body_infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.champ_infos {
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.label_infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+}
+
+.button_modif {
+    margin-top: 20px;
+}

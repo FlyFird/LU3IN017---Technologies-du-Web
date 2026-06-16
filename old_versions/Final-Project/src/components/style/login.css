@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;            /* Aligne verticalement au centre */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(38, 38, 78);
+}
+
+:root {
+    display: flex;
+    justify-content: center;
+    align-items: center;            /* Aligne verticalement au centre */
+    width: 100%;
+    height: 100%;
+}
+
+.p-signBase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;            /* Aligne verticalement au centre */
+    border: medium solid black;
+    box-sizing: border-box;
+    height: 50%;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+}
+
+.p-signBase__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;            /* Aligne verticalement au centre */
+    height: 15%;
+}
+
+.p-signBase__header_title {
+    font-size: 50px;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    border: none;
+    justify-content: space-between; /* Espace entre les éléments */
+    height: 70%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.p-sessions__formgroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    font-size: 20px;
+    width: 80%;
+}
+
+label {
+    width: 100%;
+    padding: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+}
+
+.p-sessions__forget_password {
+    padding: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(32, 32, 32);
+}
+
+p {
+    display: block;
+    unicode-bidi: isolate;
+    color: white;
+}
+
+.p-sessions__signup_text {
+    align-items: left;
+    padding: 30px;
+    margin: 16px 0 0;
+    height: 15%;
+}
