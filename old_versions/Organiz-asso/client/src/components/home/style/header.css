@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between; /* Espace entre les éléments */
+    align-items: center;            /* Aligne verticalement au centre */
+    background-color: lightskyblue;
+    position: fixed;                /* en haut de la page */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 128px;
+    z-index: 1000;
+}

@@ -1,0 +1,15 @@
+.connect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* centre horizontalement */
+    align-items: center;      /* Aligne verticalement au centre */
+    width: 25%;
+    height: 128px;
+    /* background-color: purple; */
+}
+
+.connexion_button {
+    margin: 5px;
+    flex:0.4;
+    align-items: center;
+}
