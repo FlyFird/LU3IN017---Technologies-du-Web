@@ -1,0 +1,63 @@
+/* Container for when user is not logged in */
+.connect {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Base style for both login and logout buttons */
+.connexion_button,
+.logout_button {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.connexion_button:hover,
+.logout_button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.connexion_button:active,
+.logout_button:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* Style for the user info block when logged in */
+.logged_user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Username display */
+.logged_user p {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
+
+/* User profile picture */
+.logged_user img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+  transition: transform 0.2s;
+}
+
+.logged_user img:hover {
+  transform: scale(1.1);
+}

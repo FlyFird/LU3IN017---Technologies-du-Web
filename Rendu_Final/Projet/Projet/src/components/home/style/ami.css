@@ -1,0 +1,26 @@
+.affichage_ami {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.photo_de_profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nom_profil {
+    display: flex;
+    width: 100px;
+    margin-left: 50px;
+}

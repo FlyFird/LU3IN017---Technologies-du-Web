@@ -1,0 +1,12 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 200px;
+    /* background-color: grey; */
+}
+
+.logo_cliquable {
+    cursor: pointer;
+}
